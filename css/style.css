@@ -25,7 +25,7 @@ body{
 
 
 /* web development part */
-.web-intro{
+.section-intro{
     text-align: center;
 }
 .web-box{
@@ -51,5 +51,27 @@ body{
 }
 .web-btn a{
     text-decoration: none;
+    color: black;
+}
+
+/* trget section  */
+.target-container{
+    margin: 48px 0;
+    display: flex;
+    gap: 24px;
+}
+.target-box{
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.target-box2{
+    padding: 40px;
+    background-color: rgba(0, 76, 232, 0.05)
+}
+
+.target-box  a{
+    color: black;
+}
+.target-box2  a{
     color: black;
 }
