@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Azeret Mono", monospace;
 }
 
@@ -7,71 +7,133 @@ body{
     margin: 0 auto;
 }
 
-.header{
+.header {
     text-align: center;
     background-image: url('../assets/Hero-bg.png');
     padding: 66px 221px;
 }
 
-.header-btn{
+.header-btn {
     padding: 21px 24px;
     border-radius: 8px;
     background-color: black;
 }
-.header-btn a{
+
+.header-btn a {
     text-decoration: none;
     color: white;
 }
 
 
 /* web development part */
-.section-intro{
+.section-intro {
     text-align: center;
 }
-.web-box{
+
+.web-box {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;
     padding: 48px 0;
 }
-.web-development{
+
+.web-development {
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
-     margin: 74px 0;
-     border-radius: 10px;
+    margin: 74px 0;
+    border-radius: 10px;
 }
-.web-box-content{
+
+.web-box-content {
     width: 50%;
 }
-.web-btn{
+
+.web-btn {
     padding: 10px 20px;
     border: 1px solid black;
 
 }
-.web-btn a{
+
+.web-btn a {
     text-decoration: none;
     color: black;
 }
 
 /* trget section  */
-.target-container{
+.target-container {
     margin: 48px 0;
     display: flex;
     gap: 24px;
 }
-.target-box{
+
+.target-box {
     padding: 40px;
     background-color: rgba(255, 76, 30, 0.05);
 }
-.target-box2{
+
+.target-box2 {
     padding: 40px;
     background-color: rgba(0, 76, 232, 0.05)
 }
 
-.target-box  a{
+.target-box a {
     color: black;
 }
-.target-box2  a{
+
+.target-box2 a {
     color: black;
+}
+
+
+/* support  */
+.support {
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    padding: 64px 220px;
+}
+
+.support>.section-intro>h3 {
+    color: white;
+}
+
+.support>.section-intro>p {
+    color: rgb(223, 222, 222);
+}
+
+.support input {
+    width: 470px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    /* margin: 0 auto; */
+}
+
+.inputs {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.support button {
+    border-radius: 10px;
+    padding: 17px;
+}
+
+.support button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* footer  */
+.footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-radius: 16px;
+  
+}
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
 }
