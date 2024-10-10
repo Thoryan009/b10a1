@@ -2,6 +2,11 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .header{
     text-align: center;
     background-image: url('../assets/Hero-bg.png');
@@ -12,9 +17,39 @@ body{
     padding: 21px 24px;
     border-radius: 8px;
     background-color: black;
-    color: white;
 }
 .header-btn a{
     text-decoration: none;
     color: white;
+}
+
+
+/* web development part */
+.web-intro{
+    text-align: center;
+}
+.web-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 48px 0;
+}
+.web-development{
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+     margin: 74px 0;
+     border-radius: 10px;
+}
+.web-box-content{
+    width: 50%;
+}
+.web-btn{
+    padding: 10px 20px;
+    border: 1px solid black;
+
+}
+.web-btn a{
+    text-decoration: none;
+    color: black;
 }
