@@ -85,6 +85,13 @@ body {
     color: black;
 }
 
+.Inspiration{
+    text-align: center;
+    margin: 100px;
+}
+iframe{
+    margin: 50px;
+}
 
 /* support  */
 .support {
